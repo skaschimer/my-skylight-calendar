@@ -1,6 +1,6 @@
 # DIY Smart Home Family Calendar (Skylight Clone)
 
-![Main Dashboard View](assets/main_view.jpg)
+![Main Dashboard View](assets/main_view.jpeg)
 
 ## 📖 Introduction
 My wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.
@@ -111,3 +111,4 @@ choose:
   - conditions: "All Day Event is OFF"
     action: calendar.create_event (start_date_time, end_date_time)
 ```    
+
