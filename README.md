@@ -50,6 +50,7 @@ You must have [HACS](https://hacs.xyz/) installed. Please install the following 
 * `weather-card`
 * `browser_mod` (Required for the popups to work)
 * `layout-card` (Required for the Sections view)
+* `button-card` (Required for the popup to add event)
 
 ### 2. The Backend (The Brains)
 1.  Open your `configuration.yaml` file in Home Assistant.
@@ -141,5 +142,6 @@ choose:
 My original post was just to give a high level overview of how to do it and allow people to adjust code to make it work in their specific scenarios.
 In particular I did this because every display and need is different. I can't develop for all potential sizes of displays, dashboards, etc. So it is built to work in the display I mentioned or any (1920x1080) but should be editable for others.
 Talking about display, I originally suggested that one because it was on sale at Woot and was a very economic way to get a touchscreen display at the time. This might not be the case now, so use whatever display works for you. Tablet, touchscreen, phone, whatever. The main thing youll need to edit is the dashboard.
+
 
 
